@@ -11,9 +11,9 @@
 #     print(L_Num)
 
 
-n=int(input("Enter a Number: "))
-a,b=0,1
-print(a,end=" ")
-while b<n:
-    print(a,end=" ")
-    a,b=b,a+b
+# n=int(input("Enter a Number: "))
+# a,b=0,1
+# print(a,end=" ")
+# while b<n:
+#     print(a,end=" ")
+#     a,b=b,a+b
