@@ -14,8 +14,8 @@ for i in s:
         space_char+=1
 
 
-print(upper_char)
-print(lower_char)
-print(num_char)
-print(space_char)
+print("upper Characters: ",upper_char)
+print("lower Characters: ",lower_char)
+print("number Characters: ",num_char)
+print("space Characters: ",space_char)
         
