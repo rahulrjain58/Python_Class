@@ -18,3 +18,9 @@ for i in d:
 
 for i in d:
     print(i, ": ", d[i])
+
+for key,value in d.items():
+    print(key, ": ", value)
+
+if 899 in d:
+    print("899 is available")
