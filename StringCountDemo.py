@@ -3,6 +3,7 @@ upper_char=0
 lower_char=0
 num_char=0
 space_char=0
+
 for i in s:
     if i.isupper():
         upper_char+=1
