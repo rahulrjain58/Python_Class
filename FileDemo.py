@@ -16,7 +16,7 @@ for i in l:
             Prime.write(i+",")
     else:
         Odd.write(i+",")
-        for x in range(3,int(int(i)/2)+1):
+        for x in range(3,int(int(i)/2)+1,2):
             if int(i)%x == 0:
                 break
         else:
