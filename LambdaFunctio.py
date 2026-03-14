@@ -41,3 +41,27 @@
 # l2=[7,8,9,10,11]
 # Mul_number=map(lambda x,y:x*y,l1,l2)
 # print(list(Mul_number))
+
+# l1=["Rahul","harshil","om"]
+
+# vowel_name=filter(lambda x: x[0] in "aeiou",l1)
+# print(list(vowel_name))
+
+# l1=["Rahul","harshil","om"]
+
+# long_words=filter(lambda x: len(x)>4,l1)
+# print(list(long_words))
+
+# l1=["Rahul","","harshil","","om"]
+
+# non_empty_string=filter(lambda x: x!="",l1)
+# print(list(non_empty_string))
+
+from functools import reduce
+def add(x,y):
+    return(x+y)
+num=[1,2,3,4,5]
+result=reduce(add,num)
+print(result)
+result=reduce(add,num,100)
+print(result)
